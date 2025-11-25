@@ -1,0 +1,17 @@
+/* Estilos mínimos para evitar tela em branco e erros de import */
+.clinic-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clinic-table th,
+.clinic-table td {
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+.clinic-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
