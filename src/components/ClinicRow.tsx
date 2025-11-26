@@ -32,6 +32,10 @@ const ClinicRow: React.FC<Props> = ({ clinic }) => {
                 <span className="cell-text">{clinic.name}</span>
             </td>
 
+            <td className="clinic-hours">
+                <span className="cell-text">{clinic.hours}</span>
+            </td>
+
             <td className="clinic-address">
                 <span className="cell-text">{clinic.address}</span>
             </td>
