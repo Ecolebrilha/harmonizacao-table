@@ -6,11 +6,12 @@ import './ClinicTable.css';
 const ClinicTable: React.FC = () => {
     return (
         <div className="clinic-table">
-            <h2>Clínicas de Harmonização Facial em Garanhuns</h2>
+            <h2>Clínicas de Harmonização Facial em Caruaru</h2>
             <table>
                 <thead>
                     <tr>
                         <th>Nome da Clínica</th>
+                        <th>Horário</th>
                         <th>Endereço</th>
                         <th>Instagram</th>
                     </tr>
